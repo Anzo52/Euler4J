@@ -7,7 +7,7 @@ public class EulersNumber {
 
     public static double eulersNumber(int n) {
 
-       /* double e = 1;
+        double e = 1;
         double factorial = 1;
 
         for (int i = 1; i <= n; i++) {
@@ -15,9 +15,7 @@ public class EulersNumber {
             e = e + 1 / factorial;
         }
 
-        return e; */
-
-        return Math.exp(n);
+        return e;
     }
 
     public static void main(String[] args) {
